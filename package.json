@@ -1,0 +1,33 @@
+{
+  "name": "primewire-client",
+  "version": "1.0.0",
+  "description": "Library for scraping PrimeWire.is. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milankragujevic/primewire-client.git"
+  },
+  "keywords": [
+    "primewire",
+    "movies",
+    "streaming",
+    "scraping",
+    "openload",
+    "provider"
+  ],
+  "author": "Milan Kragujevic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milankragujevic/primewire-client/issues"
+  },
+  "homepage": "https://github.com/milankragujevic/primewire-client#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "memory-cache": "^0.2.0",
+    "querystring": "^0.2.0",
+    "simple-get": "^2.7.0"
+  }
+}
